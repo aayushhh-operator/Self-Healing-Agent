@@ -1,6 +1,6 @@
 # Self-Healing Agent
 
-Self-Healing Agent is a self-verifying code generation system built with LangGraph and Groq. It takes natural language specifications, generates implementation code and unit tests, and iteratively repairs the code if tests fail.
+Self-Healing Agent is a self-verifying code generation system built with LangGraph. It takes natural language specifications, generates implementation code and unit tests, and iteratively repairs the code if tests fail.
 
 ## Features
 
@@ -24,11 +24,7 @@ Self-Healing Agent is a self-verifying code generation system built with LangGra
    ```bash
    pip install -r requirements.txt
    ```
-4. Configure environment variables:
-   Create a `.env` file in the root directory and add your Groq API key:
-   ```text
-   GROQ_API_KEY=your_groq_api_key_here
-   ```
+4. Configure environment variables
 
 ## Usage
 
