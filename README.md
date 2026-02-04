@@ -8,7 +8,6 @@ Self-Healing Agent is a self-verifying code generation system built with LangGra
 - Automated Code Generation: Creates Python implementation code based on the specification.
 - Test Generation: Automatically generates pytest-style unit tests to verify the code.
 - Self-Repair Loop: Runs tests and uses failure analysis to fix bugs automatically.
-- Centralized LLM Management: Uses Groq (Llama 3.1) for high-performance inference.
 
 ## Project Structure
 
