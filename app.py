@@ -47,8 +47,8 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("🤖 Self-Healing Code Agent")
-st.caption("A ChatGPT-style agent that writes, tests, and repairs Python code.")
+st.title("🤖 AutoMend AI")
+st.caption("Self-Healing Code Agent")
 
 # Initialize session state for chat history and agent state
 if "messages" not in st.session_state:
